@@ -11,3 +11,7 @@ ButtonStyle kHomeButtonStyle =  ButtonStyle(
   backgroundColor: MaterialStatePropertyAll<Color>(Colors.deepPurple[300]!),
 
 );
+
+Color? primaryColor = Colors.deepPurple[300];
+
+Color? secondaryColor = Colors.black;
