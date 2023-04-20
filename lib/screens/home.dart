@@ -4,10 +4,7 @@ import 'package:asana/constants/homepage.dart';
 import 'package:asana/screens/about_screen.dart';
 import 'package:asana/screens/contact_screen.dart';
 import 'package:asana/screens/learn_screen.dart';
-import 'package:asana/screens/record_screen.dart';
-import 'package:asana/screens/upload_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import 'home_screen.dart';
 
@@ -53,6 +50,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Color.fromARGB(255, 229,229,229),
         bottomNavigationBar: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
           child: ClipRRect(
